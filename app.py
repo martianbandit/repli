@@ -2,7 +2,7 @@ import streamlit as st
 from replicate import Replicate
 
 # Définissez votre modèle et votre fonction d'entrée
-model_name = "llama3-8b"
+model_name = "meta/meta-llama-3-8b-instruct"
 input_function = lambda x: x  # définissez votre fonction d'entrée ici
 
 # Initialisez le client Replicate
